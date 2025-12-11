@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".DashboardActivity"
+    android:background="@color/dark_sky_blue"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/dark_gray_blue"
+        >
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/runner"/>
+
+        <ImageButton
+            android:id="@+id/btn_search"
+            android:layout_centerVertical="true"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/search"
+            android:tint="@drawable/image_button_selector"
+            android:background="@android:color/transparent"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:fitsSystemWindows="true"
+       android:background="@color/dark_sky_blue"
+       android:orientation="vertical"
+       android:weightSum="1">
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        />
+
+       <com.google.android.material.bottomnavigation.BottomNavigationView
+           android:id="@+id/bottom_navigation"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:menu="@menu/bottom_navigation_menu"
+           android:background="@color/dark_gray_blue"
+           app:itemTextColor="@color/bottom_nav_selector"
+           app:itemRippleColor="@color/bottom_nav_selector"
+           app:itemIconTint="@color/bottom_nav_selector"
+           app:itemActiveIndicatorStyle="@color/light_gray"/>
+
+   </LinearLayout>
+</LinearLayout>
