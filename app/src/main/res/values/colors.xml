@@ -2,4 +2,27 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    // Main
+    <color name="dark_sky_blue">#011122</color>
+
+    // Accent
+    <color name="energy_orange">#FF6B35</color>
+    <color name="clear_sky_blue">#00A6FB</color>
+
+    // Complimentary
+    <color name="light_gray">#F5F5F5</color>
+    <color name="dark_gray_blue">#1E2A3A</color>
+    <color name="neutral_gray">#D9D9D9</color>
+
+    // Extra Accent
+    <color name="sun_yellow">#FFCB05</color>
+
+    // Tips for use
+    // Dark sky background, eller darkgrayblue för att accenter ska poppa
+    //ORange för viktiga knappar
+    // Blå kan markera interaktivitet och löprutter/statistik
+    // Gul för belöning / achievements 
+
 </resources>
