@@ -6,6 +6,8 @@
 
     // Main
     <color name="dark_sky_blue">#011122</color>
+    <color name="off_white">#FDFDFD</color>
+
 
     // Accent
     <color name="energy_orange">#FF6B35</color>

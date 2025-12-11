@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "901898533222",
+    "project_id": "pacemates-a6e43",
+    "storage_bucket": "pacemates-a6e43.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901898533222:android:d1459219ba9039e8b6b0a7",
+        "android_client_info": {
+          "package_name": "com.example.pacemates"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIiSrwBoigo7KP92EZgrZgTKXbU8IjpJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901898533222:android:4aaeb2e22d92c385b6b0a7",
+        "android_client_info": {
+          "package_name": "com.example.pacematesapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIiSrwBoigo7KP92EZgrZgTKXbU8IjpJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
